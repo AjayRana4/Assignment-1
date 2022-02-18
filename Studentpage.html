@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>  
+    <head>    
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Student Register Page
+        </title>  
+    </head> 
+    <u>
+    <h1>Student registration Page</h1>
+    </u>
+    <body bgcolor="lightblue">  
+    <br>  
+    <br>  
+    <section>
+        <form action="Studentpage.asp" method="post">
+      
+    <label> firstname </label>         
+    <input type="text" name="firstname" /> <br>
+    <br>  
+    <label> Middlename: </label>     
+    <input type="text" name="middlename" /> <br> 
+    <br>  
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" /> <br> 
+    <br>  
+    <label> email: </label>         
+    <input type="email" name="email" /> <br> 
+    <br>  
+    <label> Mobile: </label>         
+    <input type="mobile" name="mobile" /> <br>
+     <br>  
+    
+      
+    <br>  
+    <br>  
+    <label>   
+    <br>  
+    <label> Gender: 
+    </label>
+    <select>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="dnt">Dont Disclose</option>
+      </select>
+      <br>
+      <br>
+      <label for="birthdate">Birth Date:</label>
+      <input type="date" name="birthdate" min="2022-03-03" max="2022-04-03" />
+      <br>
+      <br>
+      
+    <label> 
+    Address    
+    <textarea cols="80" rows="5" value="address">  
+    </textarea>  
+    <br> <br>   
+    <label> 
+        City    
+        <textarea cols="0" rows="1" value="address">  
+        </textarea>  
+        <br> <br> 
+        <label> 
+            Area Pin   
+            <textarea cols="0" rows="1" value="address">  
+            </textarea>  
+            <br> <br> 
+            <label> 
+                State   
+                <textarea cols="0" rows="1" value="address">  
+                </textarea>  
+                <br> <br> 
+                <label>   
+                    Qualification :  
+                    </label>   
+                    <select>  
+                    <option value="Select Qualification">Course</option>  
+                    <option value="BCA">BCA</option>  
+                    <option value="BCOM">BCOM</option>  
+                    <option value="B.Tech">B.Tech</option>  
+                    <option value="LAW">LAW</option>  
+                    <option value="MCA">MCA</option>  
+                    <option value="MBA">MBA</option>  
+                    </select>  
+                    <br>
+                    <br>
+                    <label>   
+                        Specialization :  
+                        </label>   
+                        <br>
+                        <br>
+                    <input type="checkbox" name="cb1" value="Computer science" />Computer science
+                    <br>
+                    <input type="checkbox" name="cb2" value="IT" />IT
+                    <br>
+                    <input type="checkbox" name="cb3" value="Computer architecture" />Computer architecture
+                    <br>
+                    <input type="checkbox" name="cb4" value="Cyber security" />Cyber security            
+                    <br>
+                    <br>
+    Password:  
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br> <br>  
+    Re-type password:  
+    <input type="Password" id="repass" name="repass"> <br> <br>  
+    <a href="/register.html">Register Here</a> 
+    </form>  
+</section>
+    </body>  
+    </html>
